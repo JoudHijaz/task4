@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 
+}
+
+/* Clearfix class */
+.clr {
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+.logo img {
+    width: auto; 
+    height: 50px; 
+}
+
+/* List styles within the navbar */
+.navbar .list {
+   
+    display: flex;
+    align-items: center;
+}
+
+.list ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.list ul li {
+    margin-right: 15px;
+}
+
+.list a {
+    color: white;
+    text-transform: uppercase;
+   
+
+/* Portfolio styles */
+.portfolio {
+    text-align: center;
+  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 30px; 
+}
+
+.portfolio-item {
+    flex: 1;
+    min-width: calc(33.33% - 30px); 
+    max-width: calc(33.33% - 30px); 
+}
+
+.portfolio img {
+    width: 100%;
+    display: block;
+    
+}
+
